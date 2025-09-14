@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PM Internship Scheme - AI-Based Smart Allocation Engine</title>
+    <link rel="stylesheet" href="AI based.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>PM Internship Scheme</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#apply" class="nav-link">Apply Now</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">AI-Based Smart Allocation Engine</h1>
+                <h2 class="hero-subtitle">PM Internship Scheme</h2>
+                <p class="hero-description">
+                    Experience the future of internship matching with our intelligent AI system that connects students 
+                    with the most suitable opportunities based on skills, qualifications, and preferences.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('apply')">
+                        <i class="fas fa-rocket"></i>
+                        Apply Now
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('how-it-works')">
+                        <i class="fas fa-play"></i>
+                        Learn More
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="ai-visualization">
+                    <div class="ai-brain">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="connection-lines">
+                        <div class="line line-1"></div>
+                        <div class="line line-2"></div>
+                        <div class="line line-3"></div>
+                    </div>
+                    <div class="nodes">
+                        <div class="node node-1"><i class="fas fa-user-graduate"></i></div>
+                        <div class="node node-2"><i class="fas fa-building"></i></div>
+                        <div class="node node-3"><i class="fas fa-chart-line"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About the Scheme</h2>
+                <p>Empowering students through intelligent internship matching</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Background</h3>
+                    <p>
+                        The PM Internship Scheme enables students to gain industry exposure through structured internships. 
+                        However, matching thousands of applicants with the most suitable opportunities remains a challenge, 
+                        often leading to suboptimal selections and delays.
+                    </p>
+                    <h3>Our Solution</h3>
+                    <p>
+                        Our smart, automated system uses AI/ML algorithms to match candidates with internship opportunities 
+                        based on skills, qualifications, location preferences, and sector interests. The system also accounts 
+                        for affirmative action, past participation, and internship capacity of industries.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">10,000+</div>
+                        <div class="stat-label">Students Registered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Partner Companies</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Match Accuracy</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">AI Processing</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It Works</h2>
+                <p>Simple steps to get your perfect internship match</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>1. Register</h3>
+                    <p>Create your profile with academic details, skills, and preferences</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>2. AI Analysis</h3>
+                    <p>Our AI analyzes your profile and matches you with suitable opportunities</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>3. Get Matched</h3>
+                    <p>Receive personalized internship recommendations based on your profile</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>4. Start Internship</h3>
+                    <p>Begin your journey with the perfect internship opportunity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Key Features</h2>
+                <p>Advanced AI-powered matching system</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>AI-Powered Matching</h3>
+                    <p>Advanced machine learning algorithms ensure optimal matches based on multiple criteria</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Affirmative Action</h3>
+                    <p>Ensures representation from rural/aspirational districts and different social categories</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location Preferences</h3>
+                    <p>Considers your geographical preferences and proximity to opportunities</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Performance Tracking</h3>
+                    <p>Monitor your application status and track your internship progress</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Real-time Updates</h3>
+                    <p>Get instant notifications about new opportunities and application status</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure Platform</h3>
+                    <p>Your data is protected with enterprise-grade security measures</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Section -->
+    <section id="apply" class="apply">
+        <div class="container">
+            <div class="section-header">
+                <h2>Apply for Internship</h2>
+                <p>Start your journey with the PM Internship Scheme</p>
+            </div>
+            <div class="apply-container">
+                <div class="apply-form">
+                    <form id="applicationForm">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="university">University/College</label>
+                            <input type="text" id="university" name="university" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Course/Stream</label>
+                            <select id="course" name="course" required>
+                                <option value="">Select Course</option>
+                                <option value="engineering">Engineering</option>
+                                <option value="management">Management</option>
+                                <option value="commerce">Commerce</option>
+                                <option value="arts">Arts</option>
+                                <option value="science">Science</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="year">Academic Year</label>
+                            <select id="year" name="year" required>
+                                <option value="">Select Year</option>
+                                <option value="1">1st Year</option>
+                                <option value="2">2nd Year</option>
+                                <option value="3">3rd Year</option>
+                                <option value="4">4th Year</option>
+                                <option value="postgraduate">Postgraduate</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="skills">Skills (comma-separated)</label>
+                            <textarea id="skills" name="skills" placeholder="e.g., Python, JavaScript, Data Analysis, Communication" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferredLocation">Preferred Location</label>
+                            <select id="preferredLocation" name="preferredLocation" required>
+                                <option value="">Select Location</option>
+                                <option value="delhi">Delhi</option>
+                                <option value="mumbai">Mumbai</option>
+                                <option value="bangalore">Bangalore</option>
+                                <option value="chennai">Chennai</option>
+                                <option value="hyderabad">Hyderabad</option>
+                                <option value="pune">Pune</option>
+                                <option value="kolkata">Kolkata</option>
+                                <option value="remote">Remote</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sector">Preferred Sector</label>
+                            <select id="sector" name="sector" required>
+                                <option value="">Select Sector</option>
+                                <option value="technology">Technology</option>
+                                <option value="finance">Finance</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="education">Education</option>
+                                <option value="government">Government</option>
+                                <option value="ngo">NGO</option>
+                                <option value="startup">Startup</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Submit Application
+                        </button>
+                    </form>
+                </div>
+                <div class="apply-info">
+                    <h3>Why Apply?</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> AI-powered matching for optimal opportunities</li>
+                        <li><i class="fas fa-check"></i> Access to top companies and organizations</li>
+                        <li><i class="fas fa-check"></i> Structured learning and mentorship</li>
+                        <li><i class="fas fa-check"></i> Industry exposure and networking</li>
+                        <li><i class="fas fa-check"></i> Certificate of completion</li>
+                        <li><i class="fas fa-check"></i> Career guidance and support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <div class="section-header">
+                <h2>Student Dashboard</h2>
+                <p>Track your application and internship progress</p>
+            </div>
+            <div class="dashboard-container">
+                <div class="dashboard-sidebar">
+                    <div class="user-profile">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <h3>John Doe</h3>
+                        <p>Computer Science Student</p>
+                    </div>
+                    <nav class="dashboard-nav">
+                        <a href="#overview" class="nav-item active">
+                            <i class="fas fa-tachometer-alt"></i>
+                            Overview
+                        </a>
+                        <a href="#applications" class="nav-item">
+                            <i class="fas fa-file-alt"></i>
+                            Applications
+                        </a>
+                        <a href="#matches" class="nav-item">
+                            <i class="fas fa-handshake"></i>
+                            Matches
+                        </a>
+                        <a href="#profile" class="nav-item">
+                            <i class="fas fa-user-edit"></i>
+                            Edit Profile
+                        </a>
+                    </nav>
+                </div>
+                <div class="dashboard-content">
+                    <div class="dashboard-overview">
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-file-alt"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4>Applications</h4>
+                                    <p class="stat-number">3</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-handshake"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4>Matches</h4>
+                                    <p class="stat-number">5</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4>Pending</h4>
+                                    <p class="stat-number">2</p>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <div class="stat-info">
+                                    <h4>Accepted</h4>
+                                    <p class="stat-number">1</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="recent-activity">
+                            <h3>Recent Activity</h3>
+                            <div class="activity-list">
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-handshake"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <h4>New Match Found</h4>
+                                        <p>TechCorp - Software Development Intern</p>
+                                        <span class="activity-time">2 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-check"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <h4>Application Accepted</h4>
+                                        <p>DataSoft - Data Science Intern</p>
+                                        <span class="activity-time">1 day ago</span>
+                                    </div>
+                                </div>
+                                <div class="activity-item">
+                                    <div class="activity-icon">
+                                        <i class="fas fa-file-alt"></i>
+                                    </div>
+                                    <div class="activity-content">
+                                        <h4>Application Submitted</h4>
+                                        <p>InnovateTech - AI/ML Intern</p>
+                                        <span class="activity-time">3 days ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>PM Internship Scheme</span>
+                    </div>
+                    <p>Empowering students through intelligent internship matching with AI-powered solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#apply">Apply Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> info@pminternship.gov.in</p>
+                        <p><i class="fas fa-phone"></i> +91-11-2345-6789</p>
+                        <p><i class="fas fa-map-marker-alt"></i> New Delhi, India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PM Internship Scheme. All rights reserved. | Ministry of Corporate Affairs</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="AI based.js"></script>
+</body>
+</html>
